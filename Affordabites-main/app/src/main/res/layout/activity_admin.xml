@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Admin">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:text="Welcome! Username"
+        />
+
+    <EditText
+        android:id="@+id/registerName"
+        android:layout_width="250dp"
+        android:layout_marginStart="80dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/textbg"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/textbg"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/textbg"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/isAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:text="Register As Admin" />
+
+    <CheckBox
+        android:id="@+id/isUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="230dp"
+        android:text="Register as User" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#efbf00"
+        android:text="Create User" />
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#efbf00"
+        android:layout_marginEnd="16dp"
+        android:text="View Users" />
+
+    <EditText
+        android:id="@+id/currentName"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/textbg"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Current Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/newName"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/textbg"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="New Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/textbg"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="New Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#efbf00"
+        android:layout_marginEnd="16dp"
+        android:text="Update User" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#efbf00"
+        android:layout_marginEnd="16dp"
+        android:text="Delete User" />
+
+    <Button
+        android:id="@+id/gotoLogin"
+        android:layout_width="200dp"
+        android:backgroundTint="#EFC51D"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="650dp"
+        android:text="Logout" />
+
+</RelativeLayout>
